@@ -67,6 +67,22 @@ const projects = [
     link: "#",
     github: "https://github.com/Sachinsingh198/Shakti",
   },
+  {
+    title: "Ai-Tool Kit",
+    description:
+      "An Ai Chatbot",
+    image: "/projects/AiToolKit.png",
+    tags: [
+      "Python",
+      "Machine Learning",
+      "Folium",
+      "Streamlit",
+      "Java Script",
+      "Flask",
+    ],
+    link: "https://ai-tool-kit-cj8i.vercel.app/",
+    github: "https://github.com/Sachinsingh198/AiToolKit",
+  },
 ];
 
 export const Projects = () => {
