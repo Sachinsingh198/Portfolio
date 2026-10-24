@@ -2,6 +2,24 @@ import { useEffect, useRef } from "react";
 
 const experiences = [
   {
+    period: "Jun 2026 - Jun 2026",
+    role: "AI Data Analyst Intern",
+    company: "InAmigos Foundation (IAF)",
+    description:
+      "Processed, cleaned, and analyzed massive datasets using feature engineering and statistical modeling to extract high-leverage metrics for corporate decision-making pipelines. Translated complex data anomalies into structured analytical summaries to improve downstream pipeline reliability and cross-team reporting efficiency.",
+    technologies: ["Python", "SQL", "Feature Engineering", "Statistical Modeling"],
+    current: false,
+  },
+  {
+    period: "Dec 2025 - Mar 2026",
+    role: "Data Science Intern",
+    company: "The Skybrisk",
+    description:
+      "Executed a 3-month intensive AI and data science internship focused on building scalable machine learning workflows and automated data inference pipelines. Collaborated with cross-functional engineering teams to design robust data preprocessing modules and optimize model query latency across internal business data structures.",
+    technologies: ["Python", "Machine Learning", "Data Preprocessing", "Data Pipelines"],
+    current: false,
+  },
+  {
     period: "Present",
     role: "Full Stack ML Engineer",
     company: "TrustSnare (Capstone Project)",
@@ -11,21 +29,30 @@ const experiences = [
     current: true,
   },
   {
-    period: "2023 - 2024",
-    role: "Machine Learning Engineer",
-    company: "Phishing Detection System",
+    period: "Project",
+    role: "AI Engineer",
+    company: "Enterprise RAG App (Agentic Cloud & Kubernetes AI)",
     description:
-      "Developed an ML model for real-time phishing URL detection using AdaBoost. Engineered 50+ features from URL structure and SSL certificate data, achieving 95% accuracy with <2% false positive rate.",
-    technologies: ["Python", "scikit-learn", "Pandas", "Flask"],
+      "Architected a cyclic Agentic RAG state machine in LangGraph orchestrating Planner, Retriever, and Synthesizer nodes over 768-dim Gemini embeddings in Qdrant with Cohere cross-encoder reranking. Enforced dual-layer safety via NVIDIA NeMo Guardrails (Colang 2.0) against prompt injection/jailbreaks with asynchronous SSE token streaming and Pydantic Logfire tracing.",
+    technologies: ["FastAPI", "LangGraph", "Qdrant", "NeMo Guardrails", "Llama 3.3 70B", "Gemini", "Cohere Rerank"],
     current: false,
   },
   {
-    period: "2023",
-    role: "Data Analyst & ML Developer",
-    company: "Personal Projects",
+    period: "Project",
+    role: "AI / Voice Engineer",
+    company: "Sanjeevani: Autonomous Multilingual AI Health & Triage Assistant",
     description:
-      "Built a collaborative filtering recommendation engine analyzing 50K+ user ratings. Conducted extensive data analysis on 100K+ Olympic Games records to identify historical trends.",
-    technologies: ["Python", "Pandas", "Matplotlib"],
+      "Engineered an autonomous clinical triage agent implementing the Manchester Triage System (MTS) via a deterministic LangGraph state machine with automated 108 emergency escalation and AYUSH Hybrid RAG. Built a multilingual Indic voice pipeline (Hindi, Garhwali, Kumaoni) using Sarvam AI and Bhashini Conformer ASR, paired with an OpenCV edge vision module for medical screening.",
+    technologies: ["FastAPI", "LangGraph", "Qdrant", "Sarvam AI", "Bhashini", "OpenCV"],
+    current: false,
+  },
+  {
+    period: "Project",
+    role: "Computer Vision Engineer",
+    company: "Video BroadCaster: Real-Time AI Segmentation & Virtual Camera",
+    description:
+      "Built a real-time computer vision virtual camera broadcast engine using YOLOv8 instance segmentation (yolov8m-seg) and OpenCV to isolate human subjects for Zoom, Google Meet, and OBS. Engineered a multi-threaded frame pipeline with an anti-lag buffer drainer and FastAPI control server to hot-swap Gaussian blur, blackout, and custom backgrounds at zero perceived latency.",
+    technologies: ["Python", "PyTorch", "Ultralytics YOLOv8-Seg", "OpenCV", "FastAPI", "PyVirtualCam"],
     current: false,
   },
 ];

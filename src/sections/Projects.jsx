@@ -3,6 +3,25 @@ import {AnimatedBorderButton} from "@/components/AnimatedBorderButton"
 
 const projects = [
   {
+    title: "Enterprise RAG App",
+    description:
+      "An agentic cloud & Kubernetes-native AI platform orchestrating cyclic LangGraph multi-agent workflows, vector retrieval in Qdrant with Cohere reranking, and dual-layer NVIDIA NeMo security guardrails.",
+    image: "/projects/EnterpriseApp.png",
+    tags: [
+      "FastAPI",
+      "LangGraph",
+      "Qdrant",
+      "NeMo Guardrails",
+      "Llama 3.3 70B",
+      "Gemini",
+      "Cohere Rerank",
+      "Kubernetes",
+      "Docker",
+    ],
+    link: "#",
+    github: "https://github.com/Sachinsingh198/Enterprise-RAG-App",
+  },
+  {
     title: "TrustSnare",
     description:
       "An Ai powered extension, which prevents the users from visiting fake websites",
@@ -15,23 +34,31 @@ const projects = [
       "Flask",
     ],
     link: "#",
-    github: "",
+    github: "https://github.com/Sachinsingh198/TrustSnare",
   },
   {
-    title: "Movie Recommender",
+    title: "Sanjeevani",
+    description: "An Ai powered health assistant for peoples in Rural Areas",
+    image: "/projects/Sanjeevani.png",
+    tags: ["Python","Machine Learning","Generative Ai","Agentic Ai","Fast API", "React", "JavaScript", "Tailwind CSS"],
+    link: "#",
+    github: "https://github.com/Sachinsingh198/Sanjeevani",
+  },
+  {
+    title: "Heuristic Path Vizualizer",
     description:
-      "An Ai powered movie recommender system, which recommends movies based on users browsing",
-    image: "/projects/MovieRecommender.jpg",
-    tags: ["Python", "Machine Learning", "Cyber Security", "Flask"],
+      "An interactive, high-performance full-stack web application designed to visualize classic Artificial Intelligence graph search and state-space optimization algorithms in real-time.",
+    image: "/projects/Path_Vizualizer.png",
+    tags: ["Python", "Machine Learning", "FastAPI", "AI", "React 19", "CSS3 Variables & Keyframe Animations", "Uvicorn", "heapq"],
     link: "https://movierecommender1980.streamlit.app/",
-    github: "https://github.com/Sachinsingh198/MovieRecommender",
+    github: "https://github.com/Sachinsingh198/Heuristic-Path-Visualizer",
   },
   {
     title: "AgencyAi",
     description: "A modern website with modern UI",
     image: "/projects/AgencyAi.png",
     tags: ["React", "Java Script", "Tailwind CSS", "Frame Motion"],
-    link: "https://sactusagency.netlify.app",
+    link: "https://heuristic-path-visualizer.vercel.app/",
     github: "https://github.com/Sachinsingh198/AgencyAi",
   },
   {
@@ -43,13 +70,12 @@ const projects = [
     github: "#",
   },
   {
-    title: "Olympic Data Analysis",
-    description:
-      "This provides you the real time Analysis of the performance of countries and atheletes in olympics over the year.",
-    image: "/projects/OlympicData.png",
-    tags: ["Python", "Machine Learning", "Pandas", "Flask", "Data Analysis"],
-    link: "https://sachinsingh198-olympicdataanalysis-app-xbb8og.streamlit.app/",
-    github: "https://github.com/Sachinsingh198/OlympicDataAnalysis",
+    title: "Custom Video Broadcaster",
+    description: "An advanced, real-time AI-powered video broadcasting engine that performs smart background segmentation and applies live filters.",
+    image: "/projects/video_broadcaster.png",
+    tags: ["Yolo v8", "Fast API", "Ultralytics", "Pytorch", "OpenCV", "Python"],
+    link: "#",
+    github: "https://github.com/Sachinsingh198/Video-broadcaster",
   },
   {
     title: "Shakti",

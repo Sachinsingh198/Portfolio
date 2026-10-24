@@ -5,18 +5,17 @@ import {AnimatedBorderButton} from "@/components/AnimatedBorderButton";
 
 const skills = [
     "React",
-    "Next.js",
     "JavaScript",
     "Python",
     "Machine Learning",
     "Deep Learning",
     "Flask",
+    "Fast API",
     "Git",
-    "Talwind CSS",
     "Docker",
     "Generative Ai",
+    "Agentic AI",
     "PostgreSQL",
-    "Node.js"
 ]
 
 
@@ -155,7 +154,7 @@ export const Hero = () => {
                         {/* Stats Badge  */}
                         <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
                             <div className="text-2xl font-bold text-primary">
-                                3rd Year
+                                Final Year
                             </div>
                             <div className="text-xs text-muted-foreground">
                                 CSE Student
